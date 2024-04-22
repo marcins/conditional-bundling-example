@@ -1,0 +1,27 @@
+{
+  "name": "cb-example",
+  "packageManager": "yarn@4.1.1",
+  "scripts": {
+    "build": "rm -rf dist && parcel build --feature-flag conditionalBundling=true src/index.html",
+    "serve": "nodemon serve.js"
+  },
+  "dependencies": {
+    "@atlaskit/button": "^17.12.0",
+    "parcel": "2.0.0-canary.1550",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@parcel/plugin": "^2.12.0",
+    "@parcel/types": "^2.12.0",
+    "@types/node": "^20.12.7",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "express": "^4.19.2",
+    "http-server": "^14.1.1",
+    "nodemon": "^3.1.0",
+    "process": "^0.11.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}

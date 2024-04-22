@@ -1,0 +1,1 @@
+declare function importCond<T>(flag: string, ifTrue: string, ifFalse: string): T;
